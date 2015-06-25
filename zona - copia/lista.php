@@ -70,16 +70,10 @@
 				<div class="panel panel-default">
 					<div class="panel-heading"><svg class="glyph stroked email"><use xlink:href="#stroked-app-window"></use></svg> LISTA DE MEDICAMENTOS</div>
 					<div class="panel-body">
-					
+					<!--aqui esta la tabla-->
 						<table  id="table" data-toggle="table"   data-show-refresh="true" data-show-toggle="true"  data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
 						    <thead>
-						   <!-- <tr>
-						        <th data-field="codigosismed"  data-sortable="true">Cod. SISMED</th>
-						        <th data-field="codigo_sig" data-sortable="true">Cod. SIGA</th>
-								<th data-field="medic" data-sortable="true">Medicamento</th>
-								<th data-field="tipo" data-sortable="true">Tipo</th>
-								<th data-field="estado" data-sortable="true">Estado</th>
-						    </tr>-->
+						   
 						    </thead>
 						</table>
 					</div>
@@ -100,22 +94,22 @@
 	<script>
 	
 	$('#table').bootstrapTable({
-	url: 'zona.php?lst=listar',
+	url: 'zona.php?lst=listar',//aqui llamamos a la ruta del listar
       columns: [{
-        field: 'zonaid',
-        title: 'Zona ID' //No se debe mostar
+        field: 'zonaid',//lamamos al atributo de la base de datos - esto toma el valor de la ase de datos para mostraro
+        title: 'Zona ID' // la descrpcion de la columna  de la tabal de la vista
     }, {
-        field: 'codigo',
-        title: 'CodigoSunat'
+        field: 'codigo',//llamamos al atributo 
+        title: 'CodigoSunat'// la descrpcion de la columna  de la tabal de la vista
     },{
-        field: 'descripcion',
-        title: 'Zona'
+        field: 'descripcion',//llamamos al atributo 
+        title: 'Nombre de zona'
     }, {
-        field: 'eliminado',
+        field: 'eliminado',//llamamos al atributo 
         title: 'Eliminado'
     },
 	{
-        field: 'fechar_registro',
+        field: 'fechar_registro',//llamamos al atributo 
         title: 'Fecha Registro'
     },
 	{
