@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formulario ubigeo</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/datepicker3.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">Registrar Ubigeo</div>
+                    <div class="panel-body">
+                        <form role="form" id="frmubigeo" name="frmubigeo" method="post">
+                            <fieldset>
+                                <div class="form-group">
+                                    <select name="pais" id="pais"  class="form-control">
+                                        <option value="">::Seleccione un País</option> 
+                                        <option value="value1">Argentina</option> 
+                                        <option value="value3">Bolivia</option>
+                                        <option value="value2">Brasil</option>
+                                        <option value="value3">Colombia</option>
+                                        <option value="value3">Ecuador</option>
+                                        <option value="value3">Perú</option>
+                                    </select>                                    
+                                </div>
+                                 <div class="form-group">
+                                   <select name="departamento" id="departamento"  class="form-control">
+                                        <option value="">::Seleccione un Departamento</option> 
+                                        <option value="value3">Ayacucho</option>
+                                        <option value="value2">Cajamarca</option>
+                                       <option value="value2">Cuzco</option>
+                                        <option value="value1">Lambayeque</option>                                                                                 
+                                        <option value="value3">Pasco</option>
+                                        <option value="value3">Lima</option>
+                                        <option value="value3">Tacna</option>
+                                    </select>                                    
+                                </div>
+                                 <div class="form-group">
+                                   <select name="provincia" id="provincia"  class="form-control">
+                                        <option value="">::Seleccione una Provincia </option> 
+                                        <option value="value3">Condesuyos</option>
+                                        <option value="value2">Islay</option>
+                                       <option value="value2">La Unión</option>
+                                        <option value="value1">Huamanga</option>                                                                                 
+                                        <option value="value3">Bagua</option>
+                                        <option value="value3">Chachapoyas</option>
+                                        <option value="value3">Huarmey</option>
+                                    </select>                                    
+                                </div>
+                                  <div class="form-group">
+                                   <select name="distrito" id="distrito"  class="form-control">
+                                        <option value="">::Seleccione un Distrito</option> 
+                                        <option value="value3">	Mi Perú</option>
+                                        <option value="value2">Inncahuasi</option>
+                                       <option value="value2">Quichuas</option>
+                                        <option value="value1">Cosme</option>                                                                                 
+                                        <option value="value3">Constitución</option>
+                                        <option value="value3">Castillo Grande</option>
+                                        <option value="value3">El Porvenir</option>
+                                    </select>                                    
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="fecha-registro" name="txtfecreg" type="date" value="">
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input name="eliminado" type="checkbox" value="eliminado">Eliminado
+                                    </label>
+                                </div>
+                                <div class="form-control"><a href="#" class="btn btn-primary active" id="ap">nuevo</a><a href="#" class="btn btn-primary" id="ap">Registrar</a><a href="#" class="btn btn-primary" id="ap">Actualizar</a>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- /.col-->
+        </div><!-- /.row -->	
+
+
+
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/chart.min.js"></script>
+        <script src="js/chart-data.js"></script>
+        <script src="js/easypiechart.js"></script>
+        <script src="js/easypiechart-data.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script>
+            !function ($) {
+                $(document).on("click", "ul.nav li.parent > a > span.icon", function () {
+                    $(this).find('em:first').toggleClass("glyphicon-minus");
+                });
+                $(".sidebar span.icon").find('em:first').addClass("glyphicon-plus");
+            }(window.jQuery);
+
+            $(window).on('resize', function () {
+                if ($(window).width() > 768)
+                    $('#sidebar-collapse').collapse('show')
+            })
+            $(window).on('resize', function () {
+                if ($(window).width() <= 767)
+                    $('#sidebar-collapse').collapse('hide')
+            })
+        </script>	
+    </body>
+
+</html>
