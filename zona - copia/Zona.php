@@ -9,7 +9,9 @@
 	return $lst;
  }
  
- function insertar(){ 
+ function insertar($codigo, $descripcion){ 
+	$dZona=new DaoZona();
+	$lst=$dZona->insertar();
 	return null;
   }
   
@@ -21,7 +23,7 @@
   $lst=$view->$_GET['lst']();
   echo ($lst);
 } else {
-  echo 'Function not found';
+  echo 'Error: ¿Que es lo que intenta realizar?';
 }
  
  
