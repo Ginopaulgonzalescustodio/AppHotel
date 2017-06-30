@@ -109,12 +109,15 @@ class conexion extends PDO
 			// print_r($query);
 			//$rt = var_dump($query->execute());
 			$rt = $query->execute();
+			if (!$rt) {
+    $rt= "<p>Error en la consulta.</p>";
+			}
 			
-            echo $this->setNumRows( $query->rowCount() );
+             $this->setNumRows( $query->rowCount() );
             //	$this->cerrarConexion();
 		} catch(PDOException $e){
 			$this->conexion->rollBack();
-			echo "ERROR: " . $e->getMessage();
+			 $rt= "ERROR: " . $e->getMessage();
             error_log( $e->getMessage() ); 
 		}
         return $rt;	 
