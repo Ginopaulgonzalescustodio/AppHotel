@@ -12,7 +12,7 @@
  function ins($datos){ 
  	$dZona=new DaoZona();
 	$ins=$dZona->insertar($datos);
-	!$ins?$msg="REGISTRADO CORRECTAMENTE":$msg="NO SE HA REGISTRADO";
+	$ins=="true"?$msg="REGISTRADO CORRECTAMENTE":$msg=$ins;
 	return $msg;
   }
   

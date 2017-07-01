@@ -1,20 +1,21 @@
-$("#btn-Nuevo").on("click",function(){
-	location="form.php";	
-});
+function ruta(url){
+	$("#divContent").load(url+'/index.html');
+}
+		
+function nuevo(clas){
+	$("#divContent").load(clas+'/form.php');
+}
 
-  $(".form").on("submit",function(e)
-   {  e.preventDefault();
-        
-       $.ajax({
+function registrar(){
+	$.ajax({
+		    async: true,
             type:'post',
-            url:'../principal.php',
+            url:'principal.php',
             data: {"fun" : 'ins',"clas" : clas(),'datos':form()},
             success:function(msg)
-            {
-                alert(msg);
-                window.location="index.html";
+            {   alert(msg);
+				$("#divContent").load(clas()+'/index.html');
             }
         });
 
-
-   });
+}
