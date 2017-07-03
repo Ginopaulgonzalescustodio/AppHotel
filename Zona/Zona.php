@@ -11,8 +11,7 @@
     case 2:
         echo "i es igual a 2";
         break;
-}
-  
+ } 
 } else {
   echo 'Error: ¿Que es lo que intenta realizar?';
 }
@@ -25,7 +24,6 @@
 
  function insertar(){
 	 $datos=array($_POST['txtCodigo'],$_POST['txtDescripcion']);
-	 
 	 $view = new ControllerZona();
 	 $val=$view->$_GET['fun']($datos);
 	 echo ($val);

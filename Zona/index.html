@@ -42,8 +42,8 @@
         title: 'Fecha Registro'
     },
 	{
-                        field: 'estado',
-                        title: 'Estado',
+                        field: 'zonaid',
+                        title: 'Acciones',
                         align: 'center',
                        // events: operateEvents,
                         formatter: operateFormatter
@@ -51,11 +51,8 @@
 	],
 });	
 		function operateFormatter(value, row, index) {
-	var text='';
-	(value=='ACTIVO')?
-	 text="<span style='font-size: 12pt; font-weight: bold; color: green; text-align: center;'>"+value+"</span>"
-	 
-	 : text="<span style='font-size: 12pt; font-weight: bold; color: red; text-align: center;'>"+value+"</span>";
+	var text="<a href='#' onclick='edit("+value+")'><img src='img/editar.png' alt='Editar' title='Editar' width='20px' height='20px' /></a>"
+	+"<a href='#' onclick='edit("+value+")'><img src='img/eliminar.png' alt='Eliminar' title='Eliminar' width='20px' height='20px' /></a>";
 			
         return [
             text
