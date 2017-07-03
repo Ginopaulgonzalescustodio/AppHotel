@@ -116,7 +116,7 @@ class conexion extends PDO
     //print_r($map_stmt->errorInfo());
     //print_r($map_stmt->debugDumpParams());
     //echo '</pre>';
-    $rt=$query->errorInfo();
+    	$rt=$query->errorInfo();
     
 }
 			
@@ -150,10 +150,7 @@ class conexion extends PDO
 			$rt = $query->execute();
 				if (!$rt) {
 					$rt=$query->errorInfo();
-    
-   // $rt=$query->errorInfo();
-    
-}
+				}
 			
             $this->setNumRows( $query->rowCount() );
             $this->cerrarConexion();

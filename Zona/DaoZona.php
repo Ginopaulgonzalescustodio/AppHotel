@@ -25,7 +25,7 @@
  //cerramos la coneccion
 	$cnx->cerrarConexion();
  //enviamos los datos; como Jsonel envio de datos como json ahacen mas rapidoo el envio el acceso a los datos
-	return json_encode($consulta);
+	return $consulta;
 	}
  
  public function actualizar($datos){

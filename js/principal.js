@@ -1,4 +1,5 @@
 function ruta(url){
+	$("#msj").hide();
 	$("#divContent").load(url+'/index.html');
 }
 		
@@ -27,7 +28,7 @@ function registrar(){
 				}else{
 					alerta='<div class="alert bg-danger" role="alert">'
 					+'<svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg>'
-					+'</br> Codigo error:'+content.err+"</br>"
+					+'Codigo error:'+content.err+"</br>"
 					+'Mensaje:'+content.texto+'</div>';
 				}
 				$("#msj").html(alerta);
