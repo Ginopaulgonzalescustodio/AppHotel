@@ -1,6 +1,5 @@
 <?php
  include_once('DaoZona.php');
-
  class ControllerZona {
 	
  function listar(){	 
@@ -12,11 +11,15 @@
  function ins($datos){ 
  	$dZona=new DaoZona();
 	$ins=$dZona->insertar($datos);
-	$ins=="true"?$msg="REGISTRADO CORRECTAMENTE":$msg=$ins;
-	return $msg;
+	if($ins=="true"){
+		$err=0;
+		$texto="REGISTRADO CORRECTAMENTE";
+	}else{
+		$err=1;
+		$texto=$ins;
+	}
+	return json_encode(array('err'=>$err,'texto'=>$texto));
   }
-  
- } 
- 
 
+ } 
 ?>

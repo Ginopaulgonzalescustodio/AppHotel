@@ -2,11 +2,9 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Icons</li>
+				<li class="active"><a href="javascript:ruta('zona')">Zona</a></li>
 			</ol>
-		</div><!--/.row-->
-		
-		
+		</div>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="panel panel-default">
@@ -15,15 +13,15 @@
 						<form class="form-horizontal form">
 							<fieldset>
 								<div class="form-group col-md-6">
-									<label class="col-md-3 control-label" for="name">Nombre</label>
+									<label class="col-md-3 control-label" for="codigo">Codigo Sunat</label>
 									<div class="col-md-9">
-									<input id="txtNombre" name="txtNombre" type="text" class="form-control">
+										<input id="txtCodigo" name="txtCodigo" type="text" class="form-control">
 									</div>
 								</div>
 								<div class="form-group col-md-6">
-									<label class="col-md-3 control-label" for="email">Your E-mail</label>
+									<label class="col-md-3 control-label" for="descripcion">Descripcion</label>
 									<div class="col-md-9">
-										<input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+										<input id="txtDescripcion" name="txtDescripcion" type="text" class="form-control">
 									</div>
 								</div>
 								<div class="form-group">
@@ -35,10 +33,7 @@
 						</form>
 					</div>
 				</div>
-			</div><!--/.col-->
-		</div><!--/.row-->
-	</div>	<!--/.main-->
-	<script src="js/<?php echo 'zona' ?>.js"></script>	
-</body>
-
-</html>
+			</div>
+		</div>
+	</div>
+<script src="js/<?php echo 'zona' ?>.js"></script>

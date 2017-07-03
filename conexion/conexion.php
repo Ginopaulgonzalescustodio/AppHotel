@@ -110,7 +110,7 @@ class conexion extends PDO
 			//$rt = var_dump($query->execute());
 			$rt = $query->execute();
 			if (!$rt) {
-				$rt= "<p>NO SE HA REGISTRADO</p>";
+				$rt= "NO SE HA REGISTRADO";
 			}
 			
              $this->setNumRows( $query->rowCount() );

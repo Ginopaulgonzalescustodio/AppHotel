@@ -1,9 +1,8 @@
-
 function clas(){
   return "Zona";
 }
 
 function form(){
-  datos=[$("#txtNombre").val(),$("#email").val()];
+  datos=[$("#txtCodigo").val(),$("#txtDescripcion").val()];
   return datos;
 }
