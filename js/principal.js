@@ -3,6 +3,7 @@ function ruta(url){
 }
 		
 function nuevo(clas){
+	$("#msj").hide();
 	$("#divContent").load(clas+'/form.php');
 }
 
@@ -26,10 +27,11 @@ function registrar(){
 				}else{
 					alerta='<div class="alert bg-danger" role="alert">'
 					+'<svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg>'
-					+content.texto+'</div>';
+					+'</br> Codigo error:'+content.err+"</br>"
+					+'Mensaje:'+content.texto+'</div>';
 				}
 				$("#msj").html(alerta);
-				setTimeout(function(){$("#msj").hide()}, 3000);
+				setTimeout(function(){$("#msj").hide()}, 8000);
 			}
 		});
 }

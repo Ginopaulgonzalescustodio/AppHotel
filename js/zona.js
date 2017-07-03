@@ -3,6 +3,6 @@ function clas(){
 }
 
 function form(){
-  datos=[$("#txtCodigo").val(),$("#txtDescripcion").val()];
+  datos=[$("#txtCodigo").val(),$("#txtDescripcion").val(),$("#txtId").val()];
   return datos;
 }

@@ -14,7 +14,9 @@
 							<fieldset>
 								<div class="form-group col-md-6">
 									<label class="col-md-3 control-label" for="codigo">Codigo Sunat</label>
+									
 									<div class="col-md-9">
+									<input id="txtId" name="txtId" type="text" class="form-control">
 										<input id="txtCodigo" name="txtCodigo" type="text" class="form-control">
 									</div>
 								</div>

@@ -110,8 +110,15 @@ class conexion extends PDO
 			//$rt = var_dump($query->execute());
 			$rt = $query->execute();
 			if (!$rt) {
-				$rt= "NO SE HA REGISTRADO";
-			}
+				//$rt= "NO SE HA REGISTRADO";
+     //echo 'Error :';
+    //echo '<pre>';
+    //print_r($map_stmt->errorInfo());
+    //print_r($map_stmt->debugDumpParams());
+    //echo '</pre>';
+    $rt=$query->errorInfo();
+    
+}
 			
              $this->setNumRows( $query->rowCount() );
             //	$this->cerrarConexion();
@@ -131,10 +138,23 @@ class conexion extends PDO
 			$query = $this->conexion->prepare( "UPDATE ".$tabla." SET ".$campos." WHERE ".$condicion );
 			foreach ($valores as $key => $value) 
 			{
-				if( !empty( $value ) )
+					//var_dump($valores);
+					//echo  "key:". $key." value:" . $value." <br/>";
+					
+				if( !empty( $value ) ){
+			
 					$query->bindParam( $key, $value, $this->getPDOConstantType( $value ) );
+				}
 			}
+			
 			$rt = $query->execute();
+				if (!$rt) {
+					$rt=$query->errorInfo();
+    
+   // $rt=$query->errorInfo();
+    
+}
+			
             $this->setNumRows( $query->rowCount() );
             $this->cerrarConexion();
 		} catch(PDOException $e){

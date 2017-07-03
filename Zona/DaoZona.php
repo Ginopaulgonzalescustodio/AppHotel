@@ -11,8 +11,7 @@
  //cerramos la coneccion
  $cnx->cerrarConexion();
  //enviamos los datos; como Jsonel envio de datos como json ahacen mas rapidoo el envio el acceso a los datos
-
- return json_encode($consulta);
+	return json_encode($consulta);
  }
  
  public function insertar($datos){ //Metodo o funcion para listar
@@ -27,6 +26,17 @@
 	$cnx->cerrarConexion();
  //enviamos los datos; como Jsonel envio de datos como json ahacen mas rapidoo el envio el acceso a los datos
 	return json_encode($consulta);
+	}
+ 
+ public function actualizar($datos){
+ 	$msj="";$error="";
+	$cnx = new conexion();
+	$consulta = $cnx->actualizar("zona","descripcion=?,codigo=?", array(null,$datos[1],utf8_encode(trim($datos[0]))),'zonaid='.$datos[2]);
+ //cerramos la coneccion
+	$cnx->cerrarConexion();
+ //enviamos los datos; como Jsonel envio de datos como json ahacen mas rapidoo el envio el acceso a los datos
+ 
+	return $consulta;
 	}
  } 
 ?>

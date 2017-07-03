@@ -9,14 +9,17 @@
  }
   
  function ins($datos){ 
+ 
  	$dZona=new DaoZona();
-	$ins=$dZona->insertar($datos);
+	($datos[2]!=null||$datos[2]>0)?
+		$ins=$dZona->actualizar($datos):
+		$ins=$dZona->insertar($datos);
 	if($ins=="true"){
 		$err=0;
 		$texto="REGISTRADO CORRECTAMENTE";
 	}else{
-		$err=1;
-		$texto=$ins;
+		$err=$ins[0];
+		$texto=$ins[2];
 	}
 	return json_encode(array('err'=>$err,'texto'=>$texto));
   }

@@ -78,7 +78,7 @@
 		</ul>
 		<div class="attribution">Template by <a href="http://www.medialoot.com/item/lumino-admin-bootstrap-template/">Medialoot</a><br/><a href="http://www.glyphs.co" style="color: #333;">Icons by Glyphs</a></div>
 	</div>
-	<div  id="msj" class="col-sm-6 col-sm-offset-3 col-lg-3 col-lg-offset-9"></div>	
+	<div  id="msj" class="col-sm-6 col-sm-offset-3 col-lg-6 col-lg-offset-6"></div>	
 	<div  id="divContent"></div>
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
