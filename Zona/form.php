@@ -5,11 +5,13 @@
 				<li class="active"><a href="javascript:ruta('zona')">Zona</a></li>
 			</ol>
 		</div>
+		
 		<div class="row">
 			<div class="col-md-12">
 				<div class="panel panel-default">
 					<div class="panel-heading"> Agregar Zona</div>
 					<div class="panel-body"><br/>
+					
 						<form class="form-horizontal form">
 							<fieldset>
 								<div class="form-group col-md-6">
