@@ -1,6 +1,6 @@
 function ruta(url){
 	$("#msj").hide();
-	$("#divContent").load(url+'/index.html');
+	$("#divContent").load(url+'/index.php?label='+url);
 }
 		
 function nuevo(clas){
@@ -19,7 +19,7 @@ function registrar(){
 			{	var content=JSON.parse(msj);
 				
 				$("#msj").show();
-				$("#divContent").load(clas()+'/index.html');
+				$("#divContent").load(clas()+'/index.php');
 				alerta="";
 				if(content.err==0){
 					alerta='<div class="alert bg-success" role="alert">'
