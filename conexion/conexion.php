@@ -8,7 +8,7 @@ class conexion extends PDO
 	public $dba	=	bda;        
 	private $prt	=	port;	
 	private $numrows=	null;
-	private $conexion;
+	public $conexion;
 	private $manejador;
 	public function __construct() { $this->conectar(); }
 	 
@@ -106,15 +106,16 @@ class conexion extends PDO
 					$query->bindParam( $key, $value, $this->getPDOConstantType( $value ) );
 						
 			}
-			// print_r($query);
+			 //print_r($query);
 			//$rt = var_dump($query->execute());
+			
 			$rt = $query->execute();
 			if (!$rt) {
 				//$rt= "NO SE HA REGISTRADO";
      //echo 'Error :';
     //echo '<pre>';
-    //print_r($map_stmt->errorInfo());
-    //print_r($map_stmt->debugDumpParams());
+    //print_r($rt->errorInfo());
+    //print_r($rt->debugDumpParams());
     //echo '</pre>';
     	$rt=$query->errorInfo();
     

@@ -9,24 +9,24 @@ include $ruta;
 	$('#table').bootstrapTable({
 	url: 'principal.php?fun=listar&cls=Piso',
       columns: [{
-        field: 'zonaid',
+        field: 'id_habitacion',
         title: 'Piso ID' //No se debe mostar
     }, {
-        field: 'codigo',
+        field: 'nro_piso',
         title: 'N° Piso'
     },{
-        field: 'descripcion',
+        field: 'cant_hab',
         title: 'Cant. Hab.'
     }, {
-        field: 'eliminado',
+        field: 'nro_hab_inicial',
         title: 'N° Hab. Inicial'
     },
 	{
-        field: 'fechar_registro',
+        field: 'fecha_registro',
         title: 'Fecha Registro'
     },
 	{
-                        field: 'zonaid',
+                        field: 'id_habitacion',
                         title: 'Acciones',
                         align: 'center',
                        // events: operateEvents,

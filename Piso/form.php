@@ -30,7 +30,7 @@
 								</div>
 								<div class="form-group">
 									<div class="col-md-12 ">
-										<a href="#" class="btn btn-default btn-md pull-right btnReg" onclick="registrar()" >Registrar</a>
+										<a href="#" class="btn btn-default btn-md pull-right btnReg" onclick="registrar('Piso')" >Registrar</a>
 									</div>
 								</div>
 							</fieldset>

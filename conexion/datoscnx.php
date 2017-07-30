@@ -2,7 +2,7 @@
 	define(	"host",	"localhost");
 	define(	"user",	"postgres");
 	define(	"pass",	"120989");
-	define(	"bda",	"bdinventario");
+	define(	"bda",	"apphotel");
 	define(	"port",	"5432");
 ?>
 

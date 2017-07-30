@@ -8,7 +8,7 @@ function nuevo(clas){
 	$("#divContent").load(clas+'/form.php');
 }
 
-function registrar(){
+function registrar(label){
 	$.ajax({
 		    async: true,
             type:'post',
@@ -16,10 +16,9 @@ function registrar(){
             data: {"fun" : 'ins',"clas" : clas(),'datos':form()},
 			beforeSend: function () {$('#divContent').html('<center><img src="img/loading.gif"/>Cargando</center>');},
             success:function(msj)
-			{	var content=JSON.parse(msj);
-				
+			{	var content=JSON.parse(msj);				
 				$("#msj").show();
-				$("#divContent").load(clas()+'/index.php');
+				$("#divContent").load(clas()+'/index.php?label='+label);
 				alerta="";
 				if(content.err==0){
 					alerta='<div class="alert bg-success" role="alert">'

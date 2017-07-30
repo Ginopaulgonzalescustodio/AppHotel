@@ -1,19 +1,18 @@
 <?php
- include_once('DaoZona.php');
- class ControllerZona {
+include_once('DaoPiso.php');
+class ControllerPiso {
 	
  function listar(){	 
-	$dZona=new DaoZona();
-	$lst=$dZona->listar();
+	$dao=new DaoPiso();
+	$lst=$dao->listar();
 	return $lst;
  }
   
- function ins($datos){ 
- 
- 	$dZona=new DaoZona();
-	($datos[2]!=null||$datos[2]>0)?
-		$ins=$dZona->actualizar($datos):
-		$ins=$dZona->insertar($datos);
+ function ins($datos){
+  	$dao=new DaoPiso();
+	($datos[0]!=null||$datos[0]>0)?
+		$ins=$dao->actualizar($datos):
+		$ins=$dao->insertar($datos);
 	if($ins=="true"){
 		$err=0;
 		$texto="REGISTRADO CORRECTAMENTE";
@@ -23,6 +22,6 @@
 	}
 	return json_encode(array('err'=>$err,'texto'=>$texto));
   }
-
+  
  } 
 ?>

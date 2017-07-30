@@ -23,8 +23,8 @@
  }
 
  function insertar(){
-	 $datos=array($_POST['txtCodigo'],$_POST['txtDescripcion'],$_POST['txtId']);
-	 $view = new ControllerZona();
+	 $datos=array($_POST['txtId'],$_POST['txtNroPiso'],$_POST['txtCantHab'],$_POST['txtNHab']);
+	 $view = new ControllerPiso();
 	 $val=$view->$_GET['fun']($datos);
 	 echo ($val);
  }

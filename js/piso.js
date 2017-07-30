@@ -1,8 +1,8 @@
 function clas(){
-  return "Zona";
+  return "Piso";
 }
 
 function form(){
-  datos=[$("#txtCodigo").val(),$("#txtDescripcion").val(),$("#txtId").val()];
+  datos=[$("#txtId").val(),$("#txtNroPiso").val(),$("#txtCantHab").val(),$("#txtNHab").val()];
   return datos;
 }

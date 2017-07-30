@@ -9,7 +9,6 @@
  }
   
  function ins($datos){ 
- 
  	$dZona=new DaoZona();
 	($datos[2]!=null||$datos[2]>0)?
 		$ins=$dZona->actualizar($datos):
