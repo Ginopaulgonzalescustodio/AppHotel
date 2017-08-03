@@ -11,7 +11,7 @@
  function ins($datos){ 
  
  	$dUbigeo=new DaoUbigeo();
-	($datos[2]!=null||$datos[2]>0)?
+	($datos[3]!=null||$datos[3]>0)?
 		$ins=$dUbigeo->actualizar($datos):
 		$ins=$dUbigeo->insertar($datos);
 	if($ins=="true"){
@@ -19,7 +19,7 @@
 		$texto="REGISTRADO CORRECTAMENTE";
 	}else{
 		$err=$ins[0];
-		$texto=$ins[2];
+		$texto=$ins[3];
 	}
 	return json_encode(array('err'=>$err,'texto'=>$texto));
   }

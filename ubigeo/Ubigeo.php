@@ -23,7 +23,7 @@
  }
 
  function insertar(){
-	 $datos=array($_POST['txtPais'],$_POST['departamento'],$_POST['provincia'],$_POST['distrito'],$_POST['txtId']);
+	 $datos=array($_POST['departamento'],$_POST['provincia'],$_POST['distrito'],$_POST['txtId'],$_POST['txtPais']);
 	 $view = new ControllerUbigeo();
 	 $val=$view->$_GET['fun']($datos);
 	 echo ($val);
