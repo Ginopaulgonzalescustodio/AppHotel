@@ -19,7 +19,7 @@
 		$texto="REGISTRADO CORRECTAMENTE";
 	}else{
 		$err=$ins[0];
-		$texto=$ins[2];
+		$texto=$ins[3];
 	}
 	return json_encode(array('err'=>$err,'texto'=>$texto));
   }

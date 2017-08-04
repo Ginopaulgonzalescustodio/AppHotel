@@ -24,11 +24,11 @@ include $ruta;
                 field: 'ubigeo_distrito',
                 title: 'Distrito'
             }, {
-                field: 'eliminado',
+                field: 'ubigeo_eliminado',
                 title: 'Eliminado'
             },
             {
-                field: 'fechar_registro',
+                field: 'fecha_registro',
                 title: 'Fecha Registro'
             },
             {

@@ -26,13 +26,13 @@
                                 <div class="col-md-9">
                                     <select name="departamento" id="departamento"  class="form-control">
                                         <option value="">::Seleccione un Departamento</option> 
-                                        <option value="Ayacucho">Ayacucho</option>
-                                        <option value="Cajamarca">Cajamarca</option>
-                                        <option value="Cuzco">Cuzco</option>
+                                        <option value="Amazonas">Amazonas</option>
+                                        <option value="ANCASH">ANCASH</option>
+                                        <option value="APURIMAC">APURIMAC</option>
                                         <option value="Lambayeque">Lambayeque</option>                                                                                 
                                         <option value="Pasco">Pasco</option>
                                         <option value="Lima">Lima</option>
-                                        <option value="Tacna">Tacna</option>
+                                        <option value="Tacna">Tacna</option> 
                                     </select> 
                                 </div>
                             </div>
@@ -41,13 +41,13 @@
                                 <div class="col-md-9">
                                     <select name="provincia" id="provincia"  class="form-control">
                                                 <option value="">::Seleccione una Provincia </option> 
-                                                <option value="Condesuyos">Condesuyos</option>
-                                                <option value="Islay">Islay</option>
-                                                <option value="La Unión">La Unión</option>
-                                                <option value="Huamanga">Huamanga</option>                                                                                 
-                                                <option value="Bagua">Bagua</option>
+                                               <option value="Chachapoyas">Chachapoyas</option>
+                                                <option value="Huaraz">Huaraz</option>
+                                                <option value="Aymaraes">Aymaraes</option>
+                                                <option value="Bagua">Bagua</option>                                                                                 
+                                                <option value="Bolognesi">Bolognesi</option>
                                                 <option value="Chachapoyas">Chachapoyas</option>
-                                                <option value="Huarmey">Huarmey</option>
+                                                <option value="Abancay">Abancay</option>
                                             </select>   
                                 </div>
                             </div>
@@ -80,3 +80,29 @@
     </div>
 </div>
 <script src="js/<?php echo 'ubigeo' ?>.js"></script>
+<?php
+/*$options="";*/
+/*if ($_POST["elegido"]==Amazonas) {
+    $options= '
+    <option value="Chachapoyas">Chachapoyas</option>
+    <option value="Bagua">Bagua</option>   
+    ';    
+}
+if ($_POST["elegido"]==ANCASH) {
+    $options= '
+    <option value="Huaraz">Huaraz</option>
+    <option value="Bolognesi">Bolognesi</option>    
+    ';    
+}
+if ($_POST["elegido"]==APURIMAC) {
+    $options= '
+    <option value="Abancay">Abancay</option>
+    <option value="Bolognesi">Bolognesi</option>    
+    ';    
+}
+
+ /*echo $options; */
+/*?>
+
+<script language="javascript" src="js/jquery-1.11.1.min.js"></script>*/
+
