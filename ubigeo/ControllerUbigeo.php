@@ -11,7 +11,7 @@
  function ins($datos){ 
  
  	$dUbigeo=new DaoUbigeo();
-	($datos[2]!=null||$datos[2]>0)?
+	($datos[3]!=null||$datos[3]>0)?
 		$ins=$dUbigeo->actualizar($datos):
 		$ins=$dUbigeo->insertar($datos);
 	if($ins=="true"){

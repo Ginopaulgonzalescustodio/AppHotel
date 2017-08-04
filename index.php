@@ -45,10 +45,7 @@
 		</form>
 		<ul class="nav menu">
 			<li><a href="javascript:ruta('Zona')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Zona</a></li>
-<<<<<<< HEAD
-                        <li><a href="javascript:ruta('Ubigeo')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Ubigeo</a></li>
-=======
->>>>>>> origin/master
+            <li><a href="javascript:ruta('Ubigeo')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Ubigeo</a></li>
 			<li><a href="javascript:ruta('Piso')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Piso</a></li>
 			<li><a href="widgets.html"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Widgets</a></li>
 			<li><a href="charts.html"><svg class="glyph stroked line-graph"><use xlink:href="#stroked-line-graph"></use></svg> Charts</a></li>

@@ -5,7 +5,6 @@
             <li class="active"><a href="javascript:ruta('ubigeo')">Ubigeo</a></li>
         </ol>
     </div>
-
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
