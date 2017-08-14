@@ -20,7 +20,7 @@
 	$cnx = new conexion();
  //CONSULTAR (atribtos que deseamos listar , tabla , siempre true para que nos envia como json);
 	$consulta = $cnx->agregar("ubigeo","ubigeo_pais,ubigeo_departamento,ubigeo_provincia,ubigeo_distrito", 
-                            "?,?",
+                            "?,?,?,?",
 						   array(null,utf8_encode(trim($datos[4])),$datos[0],$datos[1],$datos[2]));
  //cerramos la coneccion
 	$cnx->cerrarConexion();
