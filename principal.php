@@ -2,6 +2,7 @@
  if (isset($_GET['cls'])){
 	$clase=$_GET['cls'];
  	include_once($clase.'/Controller'.$clase.'.php'); 
+	
  	if (isset($_GET['fun']) && method_exists('Controller'.$clase,$_GET['fun'])){
 		switch ($_GET['fun']) {
 		    case "listar":
@@ -10,7 +11,7 @@
 		}
   
 	} else {
-  		echo 'Error: ¿Que es lo que intenta realizar?';
+  		echo 'Error: ¿Que es lo que intenta realizar GET?';
 	}
  }else  if (isset($_POST['clas'])){
 	$clase=$_POST['clas'];
@@ -20,19 +21,28 @@
 			case 'ins':
         		insertar($clase,$_POST['datos']);
         		break;
-    		case 2:
-        		echo "i es igual a 2";
+    		case 'lst':
+        		lst($clase);
         		break;
 		}
   
 	} else {
-  		echo 'Error: ¿Que es lo que intenta realizar?';
+  		echo 'Error: ¿Que es lo que intenta realizar pOST?';
 	}
  }else{
+	 
 	echo 'Error: ¿Que es lo que intenta realizar?'; 	
  }
  
  function listar($clase){
+	 
+	 $c='Controller'.$clase;
+	 $view = new $c;
+	 $lst=$view->$_GET['fun']();
+	 echo ($lst);
+ }
+ 
+ function lst($clase){
 	 $c='Controller'.$clase;
 	 $view = new $c;
 	 $lst=$view->$_GET['fun']();

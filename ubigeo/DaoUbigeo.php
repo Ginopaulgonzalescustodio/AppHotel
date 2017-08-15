@@ -15,6 +15,7 @@
  }
  
  public function insertar($datos){ //Metodo o funcion para listar
+ 
  //abrimos conexionecho "ddd";
 	$msj="";$error="";
 	$cnx = new conexion();

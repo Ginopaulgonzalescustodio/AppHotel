@@ -1,5 +1,16 @@
 function ruta(url){
 	$("#msj").hide();
+	/*$.ajax({
+		    async: true,
+            type:'get',
+            url:url2+'/index.php',
+            data: {"label" : +url2},
+
+            success:function(msj)
+			{	
+				$("#divContent").html(msj);
+			}
+		});*/
 	$("#divContent").load(url+'/index.php?label='+url);
 }
 		

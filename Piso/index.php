@@ -9,7 +9,7 @@ include $ruta;
 	$('#table').bootstrapTable({
 	url: 'principal.php?fun=listar&cls=Piso',
       columns: [{
-        field: 'id_habitacion',
+        field: 'id_piso',
         title: 'Piso ID' //No se debe mostar
     }, {
         field: 'nro_piso',

@@ -2,7 +2,7 @@
 
 <DBMODEL Version="1.9" TYPE="PostgreSQL">
 
-<MODELSETTINGS MDDVERSION="1.11.3 (build 1070)" ModelProject="BASE DE DATOS DE LA COMISARIA \AEL PORVERNIR\A" ModelName="Comisaria_Ultimo" ModelCompany="CODEPROGRAMER" ModelAuthor="CODEPROGRAMER" ModelCopyright="CODEPROGRAMER" ModelVersion="29" ModelVersionAI="1" ModelSaveScriptsWithVersion="1" ModelCreated="2016-03-01 17:28:56" ModelUpdated="2017-07-13 12:58:43" Description="Modelo entidad relacion de la base de datos de la comisaria \AEl Porvenir\A" Annotation="" ZoomFac="100.00" XPos="0" YPos="0" PrintLink="" GenSettings="object GenSettings1: TGenSettings\n  TextCharCase = tccLower\n  ModelCheck = False\n  DropIfExists = True\n  NotValidConstraints = False\n  ConcurrentlyIndexes = False\n  ISQL = False\n  ExecuteAfterGeneration = True\n  DBOptions = [dbgoCreate, dbgoBeginScript, dbgoEndScript, dbgoComment]\n  ViewOptions = [viewgoCreate, viewgoCreateRule]\n  SPOptions = [spgoCreate]\n  TableOptions = [tblgoCreate, tblgoBeginScript, tblgoEndScript, tblgoComment, tblgoCreatePK, tblgoCreateFK, tblgoCreateIndex, tblgoCreateRule, tblgoCreateTrigger, tblgoCreateCHECK, tblgoFieldDefault]\n  OwnerOptions = [owngoSchema, owngoTable, owngoView, owngoSP, owngoSequence, owngoUDT]\n  ACLOptions = [aclgoSchema, aclgoTable, aclgoView, aclgoSP, aclgoSequence]\n  ModifyOptions = [mgoKeepTbls, mgoBackupTbls, mgoTraceRenaming]\n  RoleCreate = True\n  RoleWhenCreate = rocrInScript\n  SQLTypeNames = False\nend\n" DisplaySettings="object DisplaySettings1: TDisplaySettings\n  ObjectsDisplay = [edoColumns, edoInhColumns, edoIndices, edoConstraints, edoTriggers, edoRules, edoColTypes, edoFKs, rdoRefName, spdoParameters, spdoResult, spdoParamTypes, spdoParamKind, vdoAttributes, vdoTargets, vdoRules]\n  Color = clWhite\n  ShowIcons = True\n  SnapGrid = True\n  DisplaySnap = True\n  SnapSize = 10\n  ShowPages = True\n  EntityFillColor = clWhite\n  EntityLineColor = clNavy\n  SPFillColor = 13499135\n  SPLineColor = clNavy\n  ViewFillColor = 3329434\n  ViewLineColor = clNavy\n  RefNotation = 0\n  RefColor = clNavy\n  RefLabelColor = clWhite\n  MinimapShapesStyle = mmssFillAndBorder\n  MinimapVisibleAreaStyle = mmvasBitmapShading\n  MinimapBackColor = clWhite\nend\n" DefaultDelete="3" DefaultUpdate="3" DefaultDataType="23" DefaultSchemaID="0" NamePatterns="Table=Table_,View=View_,SP=Procedure_,Reference=Ref_%FROMTABLE%_to_%TOTABLE%,FKColumn=%TOTABLE%_%TOCOLUMN%" QueryDelimiter=";" DBQuoteCharacter="\A" EncloseNames="1" PKColumnsFirst="0" HPageCount="5" VPageCount="5" />
+<MODELSETTINGS MDDVERSION="1.11.3 (build 1070)" ModelProject="BASE DE DATOS DE LA COMISARIA \AEL PORVERNIR\A" ModelName="Comisaria_Ultimo" ModelCompany="CODEPROGRAMER" ModelAuthor="CODEPROGRAMER" ModelCopyright="CODEPROGRAMER" ModelVersion="35" ModelVersionAI="1" ModelSaveScriptsWithVersion="1" ModelCreated="2016-03-01 17:28:56" ModelUpdated="2017-08-11 08:00:02" Description="Modelo entidad relacion de la base de datos de la comisaria \AEl Porvenir\A" Annotation="" ZoomFac="100.00" XPos="0" YPos="0" PrintLink="" GenSettings="object GenSettings1: TGenSettings\n  TextCharCase = tccLower\n  ModelCheck = False\n  DropIfExists = True\n  NotValidConstraints = False\n  ConcurrentlyIndexes = False\n  ISQL = False\n  ExecuteAfterGeneration = True\n  DBOptions = [dbgoCreate, dbgoBeginScript, dbgoEndScript, dbgoComment]\n  ViewOptions = [viewgoCreate, viewgoCreateRule]\n  SPOptions = [spgoCreate]\n  TableOptions = [tblgoCreate, tblgoBeginScript, tblgoEndScript, tblgoComment, tblgoCreatePK, tblgoCreateFK, tblgoCreateIndex, tblgoCreateRule, tblgoCreateTrigger, tblgoCreateCHECK, tblgoFieldDefault]\n  OwnerOptions = [owngoSchema, owngoTable, owngoView, owngoSP, owngoSequence, owngoUDT]\n  ACLOptions = [aclgoSchema, aclgoTable, aclgoView, aclgoSP, aclgoSequence]\n  ModifyOptions = [mgoKeepTbls, mgoBackupTbls, mgoTraceRenaming]\n  RoleCreate = True\n  RoleWhenCreate = rocrInScript\n  SQLTypeNames = False\nend\n" DisplaySettings="object DisplaySettings1: TDisplaySettings\n  ObjectsDisplay = [edoColumns, edoInhColumns, edoIndices, edoConstraints, edoTriggers, edoRules, edoColTypes, edoFKs, rdoRefName, spdoParameters, spdoResult, spdoParamTypes, spdoParamKind, vdoAttributes, vdoTargets, vdoRules]\n  Color = clWhite\n  ShowIcons = True\n  SnapGrid = True\n  DisplaySnap = True\n  SnapSize = 10\n  ShowPages = True\n  EntityFillColor = clWhite\n  EntityLineColor = clNavy\n  SPFillColor = 13499135\n  SPLineColor = clNavy\n  ViewFillColor = 3329434\n  ViewLineColor = clNavy\n  RefNotation = 0\n  RefColor = clNavy\n  RefLabelColor = clWhite\n  MinimapShapesStyle = mmssFillAndBorder\n  MinimapVisibleAreaStyle = mmvasBitmapShading\n  MinimapBackColor = clWhite\nend\n" DefaultDelete="3" DefaultUpdate="3" DefaultDataType="23" DefaultSchemaID="0" NamePatterns="Table=Table_,View=View_,SP=Procedure_,Reference=Ref_%FROMTABLE%_to_%TOTABLE%,FKColumn=%TOTABLE%_%TOCOLUMN%" QueryDelimiter=";" DBQuoteCharacter="\A" EncloseNames="1" PKColumnsFirst="0" HPageCount="5" VPageCount="5" />
 
 <DATABASE Name="Database_1" CharacterSet="" Collate="" CType="" Tablespace="" Owner="" Template="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="0" />
 
@@ -137,11 +137,11 @@
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10047" Name="habitacion" SchemaName="hotel" OwnerName="" Comments="" MasterTableOID="13620">
+<COMPOSITE ID="10047" Name="piso" SchemaName="hotel" OwnerName="" Comments="" MasterTableOID="13620">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10048" Name="det_hab" SchemaName="hotel" OwnerName="" Comments="" MasterTableOID="13711">
+<COMPOSITE ID="10048" Name="det_piso" SchemaName="hotel" OwnerName="" Comments="" MasterTableOID="13711">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
@@ -157,14 +157,6 @@
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10053" Name="banco" SchemaName="contable" OwnerName="" Comments="" MasterTableOID="0">
-	<COLUMNS>
-	</COLUMNS>
-</COMPOSITE>
-<COMPOSITE ID="10054" Name="cuenta_bancaria" SchemaName="public" OwnerName="" Comments="" MasterTableOID="0">
-	<COLUMNS>
-	</COLUMNS>
-</COMPOSITE>
 <COMPOSITE ID="10055" Name="alquiler" SchemaName="hotel" OwnerName="" Comments="" MasterTableOID="16851">
 	<COLUMNS>
 	</COLUMNS>
@@ -174,6 +166,14 @@
 	</COLUMNS>
 </COMPOSITE>
 <COMPOSITE ID="10057" Name="cuenta_bancaria" SchemaName="public" OwnerName="" Comments="" MasterTableOID="17316">
+	<COLUMNS>
+	</COLUMNS>
+</COMPOSITE>
+<COMPOSITE ID="10058" Name="tipo_habitacion" SchemaName="hotel" OwnerName="" Comments="" MasterTableOID="17421">
+	<COLUMNS>
+	</COLUMNS>
+</COMPOSITE>
+<COMPOSITE ID="10059" Name="precio_tipo_habitacion" SchemaName="hotel" OwnerName="" Comments="" MasterTableOID="17515">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
@@ -212,7 +212,7 @@
 		<REFERENCE_BEGIN ID="359" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="3" Name="Pk_Persona" Kind="2" Expression="" ReferenceIndex="17411" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="3" Name="Pk_Persona" Kind="2" Expression="" ReferenceIndex="19166" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="7"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -240,7 +240,7 @@
 		<REFERENCE_END ID="144" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="4" Name="Pk_PerNatural" Kind="2" Expression="" ReferenceIndex="17372" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="4" Name="Pk_PerNatural" Kind="2" Expression="" ReferenceIndex="19127" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="10"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -270,7 +270,7 @@
 		<REFERENCE_END ID="9" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="8" Name="Pk_PerJuridica" Kind="2" Expression="" ReferenceIndex="17332" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="8" Name="Pk_PerJuridica" Kind="2" Expression="" ReferenceIndex="19087" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="18"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -307,7 +307,7 @@
 		<REFERENCE_END ID="25" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="11" Name="Pk_Direccion" Kind="2" Expression="" ReferenceIndex="17370" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="11" Name="Pk_Direccion" Kind="2" Expression="" ReferenceIndex="19125" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="24"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -339,7 +339,7 @@
 		<REFERENCE_BEGIN ID="23" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="13" Name="Pk_Ubigeo" Kind="2" Expression="" ReferenceIndex="17335" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="13" Name="Pk_Ubigeo" Kind="2" Expression="" ReferenceIndex="19090" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="30"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -360,7 +360,7 @@
 		<REFERENCE_END ID="37" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="26" Name="Pk_PerDocumento" Kind="2" Expression="" ReferenceIndex="17340" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="26" Name="Pk_PerDocumento" Kind="2" Expression="" ReferenceIndex="19095" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="37"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -387,7 +387,7 @@
 		<REFERENCE_BEGIN ID="35" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="32" Name="Pk_PaisEmision" Kind="2" Expression="" ReferenceIndex="17337" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="32" Name="Pk_PaisEmision" Kind="2" Expression="" ReferenceIndex="19092" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="41"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -414,7 +414,7 @@
 		<REFERENCE_END ID="65" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="62" Name="Pk_PerCategoria" Kind="2" Expression="" ReferenceIndex="17344" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="62" Name="Pk_PerCategoria" Kind="2" Expression="" ReferenceIndex="19099" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="45"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -440,7 +440,7 @@
 		<REFERENCE_BEGIN ID="158" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="63" Name="Pk_Rubro" Kind="2" Expression="" ReferenceIndex="17375" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="63" Name="Pk_Rubro" Kind="2" Expression="" ReferenceIndex="19130" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="50"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -474,7 +474,7 @@
 		<REFERENCE_END ID="99" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="71" Name="Pk_Telefono" Kind="2" Expression="" ReferenceIndex="17362" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="71" Name="Pk_Telefono" Kind="2" Expression="" ReferenceIndex="19117" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="52"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -512,7 +512,7 @@
 		<REFERENCE_END ID="86" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="75" Name="Pk_Imagen" Kind="2" Expression="" ReferenceIndex="17354" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="75" Name="Pk_Imagen" Kind="2" Expression="" ReferenceIndex="19109" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="59"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -536,7 +536,7 @@
 		<REFERENCE_END ID="341" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="77" Name="Pk_Correo" Kind="2" Expression="" ReferenceIndex="17410" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="77" Name="Pk_Correo" Kind="2" Expression="" ReferenceIndex="19165" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="66"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -572,7 +572,7 @@
 		<REFERENCE_END ID="359" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="80" Name="Pk_Institucion" Kind="2" Expression="" ReferenceIndex="17412" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="80" Name="Pk_Institucion" Kind="2" Expression="" ReferenceIndex="19167" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="72"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -598,7 +598,7 @@
 		<REFERENCE_END ID="162" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="94" Name="Pk_JuntaVecinal" Kind="2" Expression="" ReferenceIndex="17378" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="94" Name="Pk_JuntaVecinal" Kind="2" Expression="" ReferenceIndex="19133" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="80"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -617,7 +617,7 @@
 		<REFERENCE_BEGIN ID="25" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="10" Name="Pk_Zona" Kind="2" Expression="" ReferenceIndex="17369" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="10" Name="Pk_Zona" Kind="2" Expression="" ReferenceIndex="19124" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="22"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -644,7 +644,7 @@
 		<REFERENCE_END ID="163" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="150" Name="pk_area" Kind="2" Expression="" ReferenceIndex="17409" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="150" Name="pk_area" Kind="2" Expression="" ReferenceIndex="19164" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="90"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -672,7 +672,7 @@
 		<REFERENCE_END ID="333" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="153" Name="pk_areacargo" Kind="2" Expression="" ReferenceIndex="17408" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="153" Name="pk_areacargo" Kind="2" Expression="" ReferenceIndex="19163" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="94"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -698,7 +698,7 @@
 		<REFERENCE_BEGIN ID="333" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="154" Name="Pk_Cargo" Kind="2" Expression="" ReferenceIndex="17407" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="154" Name="Pk_Cargo" Kind="2" Expression="" ReferenceIndex="19162" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="97"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -725,7 +725,7 @@
 		<REFERENCE_END ID="158" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="157" Name="Pk_MantenimeintoId" Kind="2" Expression="" ReferenceIndex="17376" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="157" Name="Pk_MantenimeintoId" Kind="2" Expression="" ReferenceIndex="19131" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="103"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -742,7 +742,7 @@
 		<REFERENCE_BEGIN ID="165" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="159" Name="Pk_Dia" Kind="2" Expression="" ReferenceIndex="17381" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="159" Name="Pk_Dia" Kind="2" Expression="" ReferenceIndex="19136" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="109"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -776,7 +776,7 @@
 		<REFERENCE_END ID="169" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="164" Name="Pk_Horario" Kind="2" Expression="" ReferenceIndex="17388" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="164" Name="Pk_Horario" Kind="2" Expression="" ReferenceIndex="19143" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="112"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -800,7 +800,7 @@
 		<REFERENCE_END ID="171" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="170" Name="pk_usuario" Kind="2" Expression="" ReferenceIndex="17397" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="170" Name="pk_usuario" Kind="2" Expression="" ReferenceIndex="19152" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="122"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -819,7 +819,7 @@
 		<REFERENCE_BEGIN ID="240" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="235" Name="Pk_Grupo" Kind="2" Expression="" ReferenceIndex="17395" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="235" Name="Pk_Grupo" Kind="2" Expression="" ReferenceIndex="19150" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="128"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -844,7 +844,7 @@
 		<REFERENCE_END ID="238" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="236" Name="Pk_GrupoUsuario" Kind="2" Expression="" ReferenceIndex="17394" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="236" Name="Pk_GrupoUsuario" Kind="2" Expression="" ReferenceIndex="19149" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="129"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -864,7 +864,7 @@
 		<REFERENCE_END ID="257" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="239" Name="Pk_PermisoPagina" Kind="2" Expression="" ReferenceIndex="17406" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="239" Name="Pk_PermisoPagina" Kind="2" Expression="" ReferenceIndex="19161" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="130"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -887,7 +887,7 @@
 		<REFERENCE_END ID="253" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="242" Name="pk_opcion" Kind="2" Expression="" ReferenceIndex="17405" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="242" Name="pk_opcion" Kind="2" Expression="" ReferenceIndex="19160" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="131"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -910,7 +910,7 @@
 		<REFERENCE_END ID="247" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="244" Name="Pk_Modulo" Kind="2" Expression="" ReferenceIndex="17403" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="244" Name="Pk_Modulo" Kind="2" Expression="" ReferenceIndex="19158" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="145"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -929,43 +929,59 @@
 	</COLUMNS>
 </ENTITY>
 
-<ENTITY ID="13620" Name="habitacion" SchemaOID="2201" SchemaName="hotel" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1040" YPos="2070" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
+<ENTITY ID="13620" Name="piso" SchemaOID="2201" SchemaName="hotel" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1090" YPos="1880" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
 	<COLUMNS>
-		<COLUMN ID="13621" Name="id_habitacion" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="1" Collation="" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="13621" Name="id_piso" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="1" Collation="" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 		<COLUMN ID="13622" Name="nro_piso" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 		<COLUMN ID="13623" Name="cant_hab" Pos="2" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 		<COLUMN ID="13624" Name="nro_hab_inicial" Pos="3" Datatype="20" Type="int8" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-		<COLUMN ID="16870" Name="fecha_registro" Pos="4" Datatype="1082" Type="date" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="16870" Name="fecha_registro" Pos="4" Datatype="1082" Type="date" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="now()" QuoteDefault="0" Comments=""></COLUMN>
 		<COLUMN ID="13629" Name="eliminado" Pos="5" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="1" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="False" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_BEGIN>
 		<REFERENCE_BEGIN ID="13629" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="13628" Name="" Kind="2" Expression="" ReferenceIndex="17413" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="13628" Name="pk_piso" Kind="2" Expression="" ReferenceIndex="19168" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="13621"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
+	<INDEXES>
+		<INDEX ID="17818" Name="chk_unique_nro_piso" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="0" StorageParams="" Comments="">
+			<INDEXCOLUMNS COMMATEXT="nro_piso,eliminado"></INDEXCOLUMNS>
+			<INDEXSORTS COMMATEXT=","></INDEXSORTS>
+			<INDEXNULLS COMMATEXT=","></INDEXNULLS>
+		</INDEX>
+	</INDEXES>
 </ENTITY>
 
-<ENTITY ID="13711" Name="det_hab" SchemaOID="2201" SchemaName="hotel" OwnerID="0" OwnerName="" TablespaceID="0" XPos="860" YPos="2270" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
+<ENTITY ID="13711" Name="det_piso" SchemaOID="2201" SchemaName="hotel" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1060" YPos="2090" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
 	<COLUMNS>
 		<COLUMN ID="13625" Name="id_det_hab" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="1" Collation="" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-		<COLUMN ID="13626" Name="nro_hab_inicial" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-		<COLUMN ID="13650" Name="hab_estado" Pos="2" Datatype="1042" Type="char" Width="1" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments="A:Alquilada\nR:reservada\nL:Libre"></COLUMN>
+		<COLUMN ID="13626" Name="nro_hab" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="13650" Name="hab_estado" Pos="2" Datatype="1042" Type="char" Width="1" Prec="0" NotNull="1" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="\aL\a" QuoteDefault="0" Comments="A:Alquilada\nR:reservada\nL:Libre"></COLUMN>
 		<COLUMN ID="13627" Name="eliminado" Pos="3" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="1" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="False" QuoteDefault="0" Comments=""></COLUMN>
-		<COLUMN ID="13628" Name="id_habitacion" Pos="4" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="13628" Name="id_piso" Pos="4" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="16879" Name="id_tipo_habitacion" Pos="5" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_END>
 		<REFERENCE_END ID="13629" />
+		<REFERENCE_END ID="17057" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="13627" Name="" Kind="2" Expression="" ReferenceIndex="17414" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="13627" Name="pk_det_hab" Kind="2" Expression="" ReferenceIndex="19179" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="13625"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
+	<INDEXES>
+		<INDEX ID="18013" Name="chk_unique_nro_hab" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="0" StorageParams="" Comments="">
+			<INDEXCOLUMNS COMMATEXT="nro_hab,eliminado"></INDEXCOLUMNS>
+			<INDEXSORTS COMMATEXT=","></INDEXSORTS>
+			<INDEXNULLS COMMATEXT=","></INDEXNULLS>
+		</INDEX>
+	</INDEXES>
 </ENTITY>
 
 <ENTITY ID="14480" Name="alquiler" SchemaOID="2201" SchemaName="hotel" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1450" YPos="2210" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
@@ -983,14 +999,14 @@
 		<REFERENCE_BEGIN ID="13640" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="13632" Name="pk_alquiler_id" Kind="2" Expression="" ReferenceIndex="17415" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="13632" Name="pk_alquiler_id" Kind="2" Expression="" ReferenceIndex="19170" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="13630"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 </ENTITY>
 
-<ENTITY ID="14655" Name="alquiler_detalle" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1440" YPos="2040" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
+<ENTITY ID="14655" Name="alquiler_detalle" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1570" YPos="2080" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
 	<COLUMNS>
 		<COLUMN ID="13636" Name="id_det_alquiler" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="1" Collation="" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 		<COLUMN ID="13637" Name="id_det_hab" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
@@ -1003,7 +1019,7 @@
 		<REFERENCE_END ID="13645" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="13635" Name="" Kind="2" Expression="" ReferenceIndex="17418" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="13635" Name="" Kind="2" Expression="" ReferenceIndex="19173" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="13636"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -1024,14 +1040,14 @@
 		<REFERENCE_BEGIN ID="13645" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="13641" Name="pk_tasa_pago_id" Kind="2" Expression="" ReferenceIndex="17417" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="13641" Name="pk_tasa_pago_id" Kind="2" Expression="" ReferenceIndex="19172" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="13640"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 </ENTITY>
 
-<ENTITY ID="16851" Name="alquiler" SchemaOID="2201" SchemaName="hotel" OwnerID="0" OwnerName="" TablespaceID="0" XPos="790" YPos="2060" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
+<ENTITY ID="16851" Name="alquiler" SchemaOID="2201" SchemaName="hotel" OwnerID="0" OwnerName="" TablespaceID="0" XPos="740" YPos="2010" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
 	<COLUMNS>
 		<COLUMN ID="16852" Name="id_alquiler" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="1" Collation="" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 		<COLUMN ID="16853" Name="fecha_ingreso" Pos="1" Datatype="1082" Type="date" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="now()" QuoteDefault="0" Comments=""></COLUMN>
@@ -1061,7 +1077,7 @@
 		<REFERENCE_BEGIN ID="16861" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="16857" Name="" Kind="2" Expression="" ReferenceIndex="17419" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="16857" Name="" Kind="2" Expression="" ReferenceIndex="19174" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="16861"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
@@ -1080,11 +1096,64 @@
 		<REFERENCE_END ID="16861" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-		<CONSTRAINT ID="16859" Name="" Kind="2" Expression="" ReferenceIndex="17420" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+		<CONSTRAINT ID="16859" Name="" Kind="2" Expression="" ReferenceIndex="19175" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
 			<CONSTRAINTCOLUMNS COMMATEXT="16864"></CONSTRAINTCOLUMNS>
 			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
+</ENTITY>
+
+<ENTITY ID="17421" Name="tipo_habitacion" SchemaOID="2201" SchemaName="hotel" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1330" YPos="1960" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
+	<COLUMNS>
+		<COLUMN ID="16871" Name="id_tipo_habitacion" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="1" Collation="" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="16873" Name="tipo_abreviatura" Pos="1" Datatype="1042" Type="char" Width="2" Prec="0" NotNull="1" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="\aIN\a" QuoteDefault="0" Comments="IN:Indiviudal\nMA:Matrimonial\nHD:Habitacion Doble\nHT:Habitacion Triple\n"></COLUMN>
+		<COLUMN ID="16872" Name="tipo_nombre" Pos="2" Datatype="25" Type="text" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="16881" Name="tipo_descripcion" Pos="3" Datatype="25" Type="text" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="16880" Name="eliminado" Pos="4" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="1" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="False" QuoteDefault="0" Comments=""></COLUMN>
+	</COLUMNS>
+	<REFERENCES_BEGIN>
+		<REFERENCE_BEGIN ID="17053" />
+		<REFERENCE_BEGIN ID="17057" />
+	</REFERENCES_BEGIN>
+	<CONSTRAINTS>
+		<CONSTRAINT ID="16953" Name="pk_tipo_habitacion" Kind="2" Expression="" ReferenceIndex="19178" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+			<CONSTRAINTCOLUMNS COMMATEXT="16871"></CONSTRAINTCOLUMNS>
+			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
+		</CONSTRAINT>
+	</CONSTRAINTS>
+	<INDEXES>
+		<INDEX ID="18305" Name="chk_unique_tipo_nombre" Unique="0" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="0" StorageParams="" Comments="">
+			<INDEXCOLUMNS COMMATEXT="tipo_nombre,eliminado"></INDEXCOLUMNS>
+			<INDEXSORTS COMMATEXT=","></INDEXSORTS>
+			<INDEXNULLS COMMATEXT=","></INDEXNULLS>
+		</INDEX>
+	</INDEXES>
+</ENTITY>
+
+<ENTITY ID="17515" Name="precio_tipo_habitacion" SchemaOID="2201" SchemaName="hotel" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1590" YPos="1880" Temporary="0" Unlogged="0" OnCommit="" Inherits="" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" StorageParams="" >
+	<COLUMNS>
+		<COLUMN ID="16874" Name="id_precio_tipo_habitacion" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="1" Collation="" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="16875" Name="precio_dia" Pos="1" Datatype="1700" Type="numeric" Width="8" Prec="2" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="16876" Name="precio_hora" Pos="2" Datatype="1700" Type="numeric" Width="8" Prec="2" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="16877" Name="eliminado" Pos="3" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="1" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="0" DefaultValue="False" QuoteDefault="0" Comments=""></COLUMN>
+		<COLUMN ID="16878" Name="id_tipo_habitacion" Pos="4" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" Collation="" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+	</COLUMNS>
+	<REFERENCES_END>
+		<REFERENCE_END ID="17053" />
+	</REFERENCES_END>
+	<CONSTRAINTS>
+		<CONSTRAINT ID="16954" Name="pk_precio_tipo_habitacion" Kind="2" Expression="" ReferenceIndex="19177" FillFactor="" Comments="" TablespaceID="0" Deferrable="0" Method="0">
+			<CONSTRAINTCOLUMNS COMMATEXT="16874"></CONSTRAINTCOLUMNS>
+			<CONSTRAINTOPERATORS COMMATEXT=""></CONSTRAINTOPERATORS>
+		</CONSTRAINT>
+	</CONSTRAINTS>
+	<INDEXES>
+		<INDEX ID="18403" Name="chk_unique_precio_tipo_hab" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="0" StorageParams="" Comments="">
+			<INDEXCOLUMNS COMMATEXT="precio_dia,precio_hora,eliminado,id_tipo_habitacion"></INDEXCOLUMNS>
+			<INDEXSORTS COMMATEXT=",,,"></INDEXSORTS>
+			<INDEXNULLS COMMATEXT=",,,"></INDEXNULLS>
+		</INDEX>
+	</INDEXES>
 </ENTITY>
 
 </ENTITIES>
@@ -1258,7 +1327,7 @@
 	<USERPOINTS>
 	</USERPOINTS>
 </REFERENCE>
-<REFERENCE ID="13629" Name="fk_det_hab_habitacion" SOURCE="13620" DESTINATION="13711" FKIDS="13621=13628\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="13628" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" />
+<REFERENCE ID="13629" Name="fk_piso_det_piso" SOURCE="13620" DESTINATION="13711" FKIDS="13621=13628\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="13628" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" />
 	<USERPOINTS>
 	</USERPOINTS>
 </REFERENCE>
@@ -1271,6 +1340,14 @@
 	</USERPOINTS>
 </REFERENCE>
 <REFERENCE ID="16861" Name="fk_cuenta_bancaria_banco" SOURCE="17224" DESTINATION="17316" FKIDS="16861=16869\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="16857" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" />
+	<USERPOINTS>
+	</USERPOINTS>
+</REFERENCE>
+<REFERENCE ID="17053" Name="fk_precio_tipo_habitacion_tipo_habitacion" SOURCE="17421" DESTINATION="17515" FKIDS="16871=16878\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="16953" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" />
+	<USERPOINTS>
+	</USERPOINTS>
+</REFERENCE>
+<REFERENCE ID="17057" Name="fk_det_hab_tipo_habitacion" SOURCE="17421" DESTINATION="13711" FKIDS="16871=16879\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="16953" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" />
 	<USERPOINTS>
 	</USERPOINTS>
 </REFERENCE>

@@ -18,6 +18,7 @@
 		$err=0;
 		$texto="REGISTRADO CORRECTAMENTE";
 	}else{
+		var_dump($ins);
 		$err=$ins[0];
 		$texto=$ins[3];
 	}

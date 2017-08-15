@@ -1,0 +1,192 @@
+[11-Aug-2017 11:46:43 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:46:43 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 11:46:45 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:46:45 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 11:47:24 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:47:24 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 11:47:26 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:47:26 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 11:48:01 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:48:01 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 11:49:42 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:49:42 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 11:49:44 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:49:44 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 11:51:16 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:51:16 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 11:51:18 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:51:18 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 11:54:20 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 11:54:20 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:03:57 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:03:57 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:08:00 America/Bogota] PHP Warning:  include_once(Laundry/ControllerLaundry.php): failed to open stream: No such file or directory in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/principal.php on line 4
+[11-Aug-2017 12:08:00 America/Bogota] PHP Warning:  include_once(): Failed opening 'Laundry/ControllerLaundry.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/principal.php on line 4
+[11-Aug-2017 12:10:42 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:10:42 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:11:10 America/Bogota] PHP Warning:  include_once(Laundry,/ControllerLaundry,.php): failed to open stream: No such file or directory in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/principal.php on line 4
+[11-Aug-2017 12:11:10 America/Bogota] PHP Warning:  include_once(): Failed opening 'Laundry,/ControllerLaundry,.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/principal.php on line 4
+[11-Aug-2017 12:20:37 America/Bogota] PHP Warning:  include_once(Laundry/ControllerLaundry.php): failed to open stream: No such file or directory in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/principal.php on line 4
+[11-Aug-2017 12:20:37 America/Bogota] PHP Warning:  include_once(): Failed opening 'Laundry/ControllerLaundry.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/principal.php on line 4
+[11-Aug-2017 12:27:42 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:27:42 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:30:31 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:30:31 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:30:32 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:30:32 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:34:07 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:34:07 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:44:07 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:44:07 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:44:12 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:44:12 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:45:03 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:45:03 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:45:09 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:45:09 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:45:44 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:45:44 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:49:18 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:49:18 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:49:20 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:49:20 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:49:56 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:49:56 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:49:57 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:49:57 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:49:59 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:49:59 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:50:31 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:50:31 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:51:15 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:51:15 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:52:09 America/Bogota] PHP Warning:  include_once(/Controller.php): failed to open stream: No such file or directory in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/principal.php on line 4
+[11-Aug-2017 12:52:09 America/Bogota] PHP Warning:  include_once(): Failed opening '/Controller.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/principal.php on line 4
+[11-Aug-2017 12:52:37 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:52:37 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:54:33 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:54:33 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:55:08 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:55:08 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:55:23 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:55:23 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:55:24 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:55:24 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:55:34 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:55:34 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:55:35 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:55:35 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:55:44 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:55:44 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:56:02 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:56:02 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:56:03 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:56:03 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:56:14 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:56:14 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:56:22 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:56:22 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:56:27 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:56:27 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 43
+[11-Aug-2017 12:56:57 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 12:56:57 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotelDemo/conexion/conexion.php on line 98
+[11-Aug-2017 13:01:37 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 13:01:37 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotel/conexion/conexion.php on line 43
+[11-Aug-2017 13:07:42 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 13:07:42 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotel/conexion/conexion.php on line 43
+[11-Aug-2017 13:09:10 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 13:09:10 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotel/conexion/conexion.php on line 43
+[11-Aug-2017 13:09:12 America/Bogota] SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "45.63.77.41" and accepting
+	TCP/IP connections on port 5432?
+[11-Aug-2017 13:09:12 America/Bogota] PHP Fatal error:  Call to a member function prepare() on null in /home/cadymcom/sistemas.cadym.com/AppHotel/conexion/conexion.php on line 43

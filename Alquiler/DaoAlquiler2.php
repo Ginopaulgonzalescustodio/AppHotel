@@ -1,10 +1,10 @@
 <?php
- include_once('conexion/conexion.php');
- class DaoPiso {
+ include_once('../conexion/conexion.php');
+ class DaoAlquiler{
 	 
  public function listar(){
  $cnx = new conexion();
- $consulta = $cnx->consultar( "id_piso,nro_piso,cant_hab,nro_hab_inicial,fecha_registro,eliminado", "hotel.piso where eliminado='false'",true);
+ $consulta = $cnx->consultar("id_piso,nro_piso,cant_hab,nro_hab_inicial,fecha_registro,eliminado", "hotel.piso where eliminado='false'",true);
  $cnx->cerrarConexion();
  	return json_encode($consulta);
  }
@@ -31,4 +31,7 @@
 	return $consulta;
 	}
  } 
+ 
+ $daoAlquiler=new DaoAlquiler();
+ echo $daoAlquiler->listar();
 ?>

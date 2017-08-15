@@ -1,12 +1,24 @@
 <?php
  include_once('conexion/conexion.php');
- class DaoPiso {
-	 
- public function listar(){
+ class DaoDetallePiso{
+	
+ public function buscar($id){
  $cnx = new conexion();
- $consulta = $cnx->consultar( "id_piso,nro_piso,cant_hab,nro_hab_inicial,fecha_registro,eliminado", "hotel.piso where eliminado='false'",true);
+ $consulta = $cnx->consultar(
+ "id_det_hab, nro_hab, hab_estado, eliminado, id_piso, id_tipo_habitacion,fu_bpiso(id_piso) piso, fu_btipohabitacion(id_tipo_habitacion) habitacion",
+ "hotel.det_piso where id_piso=$id and eliminado='false'",true);
  $cnx->cerrarConexion();
  	return json_encode($consulta);
+ }
+ 
+	
+ public function listar(){
+ $cnx = new conexion();
+ $consulta = $cnx->consultar(
+ "id_det_hab, nro_hab, hab_estado, eliminado, id_piso, id_tipo_habitacion,fu_bpiso(id_piso) piso, fu_btipohabitacion(id_tipo_habitacion) habitacion", 
+ "hotel.det_piso where eliminado='false' order by nro_hab",true);
+ $cnx->cerrarConexion();
+ 	return $consulta;
  }
  
  public function insertar($datos){
