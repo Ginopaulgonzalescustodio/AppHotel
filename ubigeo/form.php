@@ -151,8 +151,8 @@
         </div>
     </div>
 </div>
-<script language="javascript" src="js/jquery-1.11.1.min.js"></script>
+<!--<script language="javascript" src="js/jquery-1.11.1.min.js"></script> -->
 <script src="js/<?php echo 'ubigeo' ?>.js"></script>
-
+ 
 
 
