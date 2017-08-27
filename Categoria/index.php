@@ -7,26 +7,17 @@ include $ruta;
 ?>
 <script>
 	$('#table').bootstrapTable({
-	url: 'principal.php?fun=listar&cls=Piso',
+	url: 'principal.php?fun=listar&cls=Categoria',
       columns: [{
-        field: 'id_piso',
-        title: 'Piso ID' //No se debe mostar
-    }, {
-        field: 'nro_piso',
-        title: 'N° Piso'
-    },{
-        field: 'cant_hab',
-        title: 'Cant. Hab.'
-    }, {
-        field: 'nro_hab_inicial',
-        title: 'N° Hab. Inicial'
+        field: 'cat_descripcion',
+        title: 'Categoria' //No se debe mostar
     },
 	{
         field: 'fecha_registro',
         title: 'Fecha Registro'
     },
 	{
-                        field: 'id_habitacion',
+                        field: 'id_categoria',
                         title: 'Acciones',
                         align: 'center',
                        // events: operateEvents,

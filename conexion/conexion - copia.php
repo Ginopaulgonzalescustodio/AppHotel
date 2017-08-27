@@ -98,13 +98,13 @@ class conexion extends PDO
 			$query = $this->conexion->prepare( "INSERT INTO ".$tabla." (".$columnas.") VALUES (".$campos.")" );
 			foreach ($valores as $key => &$value) 
 			{
-				//var_dump($valores);
-		//			echo  "key:". $key." value:" . $value." <br/>";
-					
+				
+				
+				
 				if( !empty( $value ) )
-			
+					
 					$query->bindParam( $key, $value, $this->getPDOConstantType( $value ) );
-						
+					
 			}
 			 //print_r($query);
 			//$rt = var_dump($query->execute());
@@ -117,13 +117,17 @@ class conexion extends PDO
     //print_r($rt->errorInfo());
     //print_r($rt->debugDumpParams());
     //echo '</pre>';
-    	$rt=$query->errorInfo();
+    	$rt=$query->errorInfo();   $this->conexion->rollBack();
     
 }
 			
              $this->setNumRows( $query->rowCount() );
             //	$this->cerrarConexion();
 		} catch(PDOException $e){
+			$this->conexion->rollBack();
+			 $rt= "ERROR: " . $e->getMessage();
+            error_log( $e->getMessage() ); 
+		}catch (Exception $e){
 			$this->conexion->rollBack();
 			 $rt= "ERROR: " . $e->getMessage();
             error_log( $e->getMessage() ); 
@@ -151,16 +155,16 @@ class conexion extends PDO
 			$rt = $query->execute();
 				if (!$rt) {
 					$rt=$query->errorInfo();
+					$this->conexion->rollBack();
 				}
 			
             $this->setNumRows( $query->rowCount() );
-           // $this->cerrarConexion();
+            //$this->cerrarConexion();
 		} catch(PDOException $e){
 			$this->conexion->rollBack();
 			 $rt= "ERROR: " . $e->getMessage();
             error_log( $e->getMessage() ); 
 		}
-		
         return $rt;	
 	 
 	}

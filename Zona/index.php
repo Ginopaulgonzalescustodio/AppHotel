@@ -5,6 +5,8 @@ $e="/".$e[1];
 $ruta='http://'.$_SERVER['SERVER_NAME']."".$e."/indexPrincipal.php?label=".$_GET['label'];
 include $ruta;
 ?>
+	
+
 <script>
 	$('#table').bootstrapTable({
 	url: 'principal.php?fun=listar&cls=Zona',

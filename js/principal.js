@@ -1,5 +1,38 @@
+$(function() {
+ $(document).keydown(function(e){
+  var code = (e.keyCode ? e.keyCode : e.which);
+  if(code == 116) {
+   e.preventDefault();
+ruta($("#liLabel").text());
+
+  }
+ });
+});
+
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	
+    results = regex.exec(location.search);
+	alert(regex);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	
+}
+
 function ruta(url){
 	$("#msj").hide();
+	/*$.ajax({
+		    async: true,
+            type:'get',
+            url:url2+'/index.php',
+            data: {"label" : +url2},
+
+            success:function(msj)
+			{	
+				$("#divContent").html(msj);
+			}
+		});*/
 	$("#divContent").load(url+'/index.php?label='+url);
 }
 		
@@ -7,6 +40,12 @@ function nuevo(clas){
 	$("#msj").hide();
 	$("#divContent").load(clas+'/form.php');
 }
+
+function nuevoForm(clas,id,numero,tipo,det_piso, estado){//alquiler
+	$("#msj").hide();
+	$("#divContent").load(clas+'/form.php?id='+id+"&numero="+numero+"&tipo="+tipo+"&det_piso="+det_piso+"&estado="+estado);
+}
+
 
 function registrar(label){
 	$.ajax({

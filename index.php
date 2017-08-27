@@ -7,7 +7,11 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/datepicker3.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
+<link href="css/bootstrap-select.min.css" rel="stylesheet">
+<link href="css/autcomplete_style.css" rel="stylesheet">
+<link href="css/jquery-ui.css" rel="stylesheet">
 <script src="js/lumino.glyphs.js"></script>
+
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
@@ -47,6 +51,10 @@
 			<li><a href="javascript:ruta('Zona')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Zona</a></li>
             <li><a href="javascript:ruta('Ubigeo')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Ubigeo</a></li>
 			<li><a href="javascript:ruta('Piso')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Piso</a></li>
+			<li><a href="javascript:ruta('Alquiler')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Alquiler</a></li>
+			<li><a href="javascript:ruta('Cliente')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Cliente</a></li>
+			<li><a href="javascript:ruta('Categoria')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Categoria Productos</a></li>
+			<li><a href="javascript:ruta('Producto')"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Productos</a></li>
 			<li><a href="widgets.html"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Widgets</a></li>
 			<li><a href="charts.html"><svg class="glyph stroked line-graph"><use xlink:href="#stroked-line-graph"></use></svg> Charts</a></li>
 			<li><a href="tables.html"><svg class="glyph stroked table"><use xlink:href="#stroked-table"></use></svg> Tables</a></li>
@@ -83,10 +91,14 @@
 	<div  id="msj" class="col-sm-6 col-sm-offset-3 col-lg-6 col-lg-offset-6"></div>	
 	<div  id="divContent"></div>
 	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/core.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/bootstrap-datepicker.js"></script>
 	<script src="js/bootstrap-table.js"></script>
 	<script src="js/principal.js"></script>
+	<script src="js/bootbox.js"></script>
+	<script src="js/bootstrap-select.min.js"></script>
+	
 	<script>
 		!function ($) {
 		    $(document).on("click","ul.nav li.parent > a > span.icon", function(){          
@@ -102,5 +114,4 @@
 		})
 	</script>	
 </body>
-
 </html>
