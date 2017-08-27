@@ -1,8 +1,8 @@
 <?php
 	define(	"host",	"localhost");
 	define(	"user",	"postgres");
-	define(	"pass",	"sa");
-	define(	"bda",	"hotel");
+	define(	"pass",	"120989");
+	define(	"bda",	"apphotel");
 	define(	"port",	"5432");
 ?>
 
